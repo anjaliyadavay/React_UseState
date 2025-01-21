@@ -2,9 +2,9 @@ import React , {useState} from 'react'
 
 function Form() {
     // Declare state variables for name, email, and message
-  const [name, setname] = useState('Anjali');
-  const [email, setemail] = useState('anjali819168@gmail.com');
-  const [message, setmessage] = useState('Hello I am Anjali');
+  const [name, setname] = useState('');
+  const [email, setemail] = useState('');
+  const [message, setmessage] = useState('');
 
   // Handle changes in each input field
   function handleNameChange(e) {
@@ -25,6 +25,9 @@ function Form() {
     e.preventDefault();
     console.log('Form Submitted:', { name, email, message });
   }
+
+ 
+
   return (
     <>
 
@@ -44,6 +47,7 @@ function Form() {
           <textarea value={message} onChange={handleMessageChange}></textarea>
         </div>
         <button type="submit">Submit</button>
+        <h1 style={{fontSize:30}}> {name} {email}  {message}</h1>
       </form>
     </div>
 
