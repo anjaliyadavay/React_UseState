@@ -41,8 +41,8 @@ h3 , h2 , h1 , label , textarea{
 
 
 button {
-  padding: 20px;
-  width: 12vw;
+  padding: 15px;
+  width: 17vw;
   margin-left: 20px;
   font-size: 30px;
   border-radius: 10px;
@@ -73,5 +73,8 @@ textarea {
 hr {
   width: 100vw;
 }
+
+
+
 
 
