@@ -10,7 +10,7 @@ function Counter() {
 
   // arrow funtion
 
-  const decreament = () => setCount(count - 1);
+  const decrement = () => setCount(count - 1);
 
   const reset = () => setCount(0);
 
@@ -22,7 +22,7 @@ function Counter() {
         {/* Button that increments the counter when clicked */}
         <button onClick={increment}>Increment</button>
 
-        <button onClick={decreament}>decreament</button>
+        <button onClick={decrement}>decrement</button>
 
         <button onClick={reset}>reset</button>
       </div>
